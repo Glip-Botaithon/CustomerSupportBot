@@ -1,0 +1,33 @@
+{
+  "name": "demo-glip-app",
+  "version": "0.0.1",
+  "description": "Simple Glip App",
+  "main": "src/demo-glip-app.js",
+  "repository": "git@github.com:demotodo/demo-glip-app.git",
+  "author": "bribin",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/demo-glip-app.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "glip-client": "^0.4.7",
+    "request": "^2.81.0",
+    "watson-developer-cloud": "^2.28.0"
+  },
+  "files": [
+    "src/index.bundle.js",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "Glip",
+    "RingCentral"
+  ],
+  "homepage": "https://github.com/demotodo/demo-glip-app",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2"
+  }
+}
