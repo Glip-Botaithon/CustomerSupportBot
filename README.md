@@ -23,4 +23,4 @@ Get the Conversation service info: user name, password, and workspace_id.
 
 ## Knowledge Articles Search
 
-Google based
+Integrate with existing implementation.
